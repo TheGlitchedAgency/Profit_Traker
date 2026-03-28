@@ -47,8 +47,8 @@ def delete_profit(profit_id: int, db: sqlite3.Connection = Depends(get_db)):
 # IMPORTANT: Mount static files *after* API routes and NOT at "/"
 # We mount them at "/web" so they don't override /api/* routes.
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-STATIC_DIR = BASE_DIR / "Web"
+BASE_DIR = Path(__file__).resolve().parent
+STATIC_DIR = BASE_DIR / "web"
 
 if not STATIC_DIR.exists():
     logging.warning("Static directory %s does not exist", STATIC_DIR)

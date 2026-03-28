@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome (Frontend)",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Run FastAPI Backend",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/API/main.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}

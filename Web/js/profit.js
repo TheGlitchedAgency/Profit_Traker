@@ -3,6 +3,7 @@
 const API_BASE = "https://ing-speakers-invoice-vbulletin.trycloudflare.com/api/profits";
 
 
+
 // DOM Elements
 const addProfitForm = document.getElementById('addProfitForm');
 const editProfitForm = document.getElementById('editProfitForm');

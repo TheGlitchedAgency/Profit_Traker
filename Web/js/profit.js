@@ -1,6 +1,6 @@
 /* Profit Summary Application */
 
-const API_BASE = "https://emissions-stay-jacob-engaged.trycloudflare.com/api/profits";
+const API_BASE = "https://ing-speakers-invoice-vbulletin.trycloudflare.com/api/profits";
 
 
 // DOM Elements

@@ -1,6 +1,6 @@
 /* Profit Summary Application */
 
-const API_BASE = "https://popularity-variable-javascript-lawrence.trycloudflare.com/api/profits";
+const API_BASE = "https://awarded-stake-path-depth.trycloudflare.com/api/profits";
 
 
 
